@@ -2,8 +2,9 @@
 
 Package errors provides simple error handling primitives.
 
-`go get github.com/pkg/errors`
+`go get github.com/wbflooksky/errors`
 
+Add function ExistStack determine if the stack has been attached
 The traditional error handling idiom in Go is roughly akin to
 ```go
 if err != nil {
